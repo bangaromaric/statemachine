@@ -16,6 +16,10 @@ spring:
     hikari:
       poolName: Hikari
       auto-commit: false
+  jpa:
+    hibernate:
+      ddl-auto: create
   h2:
     console:
       enabled: true
+
